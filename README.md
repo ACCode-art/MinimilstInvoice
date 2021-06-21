@@ -8,10 +8,17 @@ A full working version of this project can be found at https://minimilistinvoice
 
 ### Validation
 
-<li> Users are not able to progress to the next field if input fields are empty
-<li> If a quantity/price input fields have an letters, users can not add that item and must ammend to follow the validation rules
-<li> Once all items are added, the user can create the invoce, with the sub-total and final totals automatically calculated! (even with 20% VAT!!!!)
+<li> Users are not able to progress to the next step if any input fields are empty
+<li> If a quantity/price input fields have any letters, users can not add that item and must ammend their information to follow the validation rules
+<li> Once all items are added, the user can create the invoice, with the sub-total and final totals automatically calculated! (even with 20% VAT!!!!)
 <li> A user can print the CV after completion.
+
+## Technologies Used
+
+<li> HTML5
+<li> SASS
+<li> JavaScript
+<li> Webpack
 
 ## Upcoming Functionality
 
