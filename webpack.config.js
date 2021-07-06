@@ -1,20 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
-
+  mode: 'production',
   devtool: 'source-map',
   entry: './src',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-  },
-  module: {
-    rules: [
-      {
-        test: /\.scss$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
-      },
-    ],
   },
 };
